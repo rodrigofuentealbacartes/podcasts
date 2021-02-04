@@ -20,6 +20,7 @@ DEBUG = env.bool("DEBUG")
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'podcasts.apps.PodcastsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
